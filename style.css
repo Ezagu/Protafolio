@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #125;
+}
+
+.header__nav {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.list__item {
+    font-family: monospace;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.list__item:hover {
+    background-color: #236;
+}
+
+.list__item:active {
+    background-color: #458;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: #458;
+}
+
+.conteiner__home {
+    background-color: #fff;
+    margin: auto;
+    height: inherit;
+    max-width: 800px;
+}
