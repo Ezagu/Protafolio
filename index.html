@@ -5,24 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ezagu-Dev</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/EzaguIcon.ico" type="image/icon">
+    <meta name="author" content="Agustín Calpe">
+    
+    <!--Fuente de texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="background-dark">
     <header class="header">
-        <img class="ezagu-icon" src="" alt="">
-        <nav class="header__nav">
-            <ul class="nav__list">
-                <a href="#home" class="list__item">//HOME</a>
-                <a href="" class="list__item">//PROJECTS</a>
-                <a href="" class="list__item">//SKILLS</a>
-                <a href="" class="list__item">//ABOUT</a>
-                <a href="" class="list__item">//CONTACT</a>
-            </ul>
-        </nav>
+        <div class="header__conteiner">
+            <a href="" class="header__link">
+                <img class="header__icon background-dark" src="images/Ezagu 500x500 sin fondo.png" alt="Icon of Ezagu">
+            </a>
+            <nav class="header__nav background-dark">
+                <ul class="nav__list">
+                    <a href="#home" class="nav__item">//HOME</a>
+                    <a href="#projects" class="nav__item">//PROJECTS</a>
+                    <a href="#skills" class="nav__item">//SKILLS</a>
+                    <a href="#about" class="nav__item">//ABOUT</a>
+                    <a href="#contact" class="nav__item">//CONTACT</a>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="home" id="home">
-        <div class="conteiner__home">
-
+        <div class="section-conteiner">
+            <h3 class="home__epigraph">
+                >Hello, world!👋
+            </h3>
+            <h1 class="home__title">i'm  <span class="title--name">Agustín Calpe</span>  or  <span class="title--ezagu">Ezagu</span></h1>
+            <h2 class="home__subtitle">
+                Software & Web developer
+            </h2>
+            <p class="home__paragraph">
+                Passionate about computer science and programming, always eager to learn and grow. I am focused on tackling big challenges and achieving ambitious goals that push me to improve both professionally and personally.
+            </p>
+            <div class="home__links-conteiner">
+                <a href="https://github.com/Ezagu" class="home__link" target="_blank">
+                    <img src="icons/github.svg" alt="GitHub icon" class="home__link-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/agust%C3%ADn-calpe-monz%C3%B3n-713275309/" class="home__link" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn icon" class="home__link-icon">
+                </a>
+            </div>
         </div>
     </section>
+    <section class="projects" id="projects">
+        <div class="section-conteiner">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects__conteiners">
+
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="section-conteiner">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__conteiner">
+                <div class="skill-card">
+                    <img src="icons/html5.svg" alt="HTML icon" class="skill-card__icon" loading="lazy">
+                    <h3 class="skill-card__title">HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/css_old.svg" alt="CSS icon" class="skill-card__icon" loading="lazy">
+                    <h3 class="skill-card__title">CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/python.svg" alt="Python icon" class="skill-card__icon" loading="lazy">
+                    <h3 class="skill-card__title">Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/java.svg" alt="Java icon" class="skill-card__icon" loading="lazy">
+                    <h3 class="skill-card__title">Java</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/sqlite.svg" alt="SQLite icon" class="skill-card__icon" loading="lazy">
+                    <h3 class="skill-card__title">SQLite</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-conteiner">
+            <h2 class="section-title">
+                About Me
+            </h2>
+            <div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-conteiner">
+            <h2 class="section-title">
+                Contact
+            </h2>
+            <div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        
+    </footer>
 </body>
 </html>
