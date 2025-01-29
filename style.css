@@ -65,7 +65,7 @@ a {
     padding: 8px 5px;
     gap: 10px;
     color: #ccc;
-    font-size: 1.2em;
+    font-size: 1.5em;
     transition: border .2s;
 }
 
@@ -211,8 +211,8 @@ a {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 0.9em;
-    background-color: #000;
+    font-size: 1.2em;
+    background: linear-gradient(135deg,#222, #444);
     border-radius: 8px;
     padding: 3px 8px;
 }
@@ -265,10 +265,11 @@ a {
     border: 1px solid #7778;
     border-radius: 25px;
     transition: background-color .2s;
+    background: linear-gradient(135deg, #1ba15e, #056948);
 }
 
 .card__button-conteiner a:hover {
-    background-color: #fff2;
+    opacity: 0.74;
 }
 
 /*Skills*/
@@ -322,7 +323,7 @@ a {
 }
 
 .about-conteiner p {
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-wrap: balance;
     margin: 0;
     padding: 5px 0;
@@ -339,7 +340,6 @@ a {
 }
 
 .about-conteiner h3 {
-    color: #9744c7;
     font-size: 1.6em;
     font-weight: 900;
 }
@@ -358,4 +358,98 @@ a {
 
 .about__social-conteiner a:hover {
     background-color: #fff2;
+}
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 8px;
+    }
+
+    /*HEADER*/
+
+    .header__buttons-conteiner {
+        justify-content: center;
+    }
+
+    .header__conteiner  {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, min-content);
+        justify-items: center;
+    }
+
+    .header__conteiner h3 {
+        padding: 10px 0;
+    }
+
+    .header__conteiner h1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .header__img {
+        grid-row: span 1;
+    }
+
+    .header__conteiner h2 {
+        grid-column: span 1;
+        padding: 0;
+        padding-top: 15px;
+        font-weight: 900;
+    }
+
+    /*NAVBAR*/
+
+
+    /*PROJECTS*/
+
+    .project__card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px repeat(2, min-content) 1fr min-content;
+        width: 80%;
+    }
+
+    .card__img {
+        justify-self: center;
+        max-width: 100%;
+        width: 100%;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 0;        
+    }
+
+    .card__tecnologies {
+        padding-left: 10px;
+    }
+
+    .project__card h3, .project__card p {
+        padding-left: 10px;
+    }
+
+    .project__card p {
+        font-size: 1.6em;
+    }
+
+    /*SKILLS*/
+
+    .skills-conteiner {
+        padding: 20px;
+    }
+
+    .skills__card img{
+        width: 70px;
+        height: 70px;
+    }
+
+    /*ABOUT ME*/
+
+    .about-conteiner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px repeat(5, min-content);
+        padding: 10px;
+    }
+
+    .about__img {
+        background-position: top;
+    }
 }
