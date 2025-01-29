@@ -7,148 +7,135 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icons/EzaguIcon.ico" type="image/icon">
     <meta name="author" content="Agustín Calpe">
-    
-    <!--Fuente de texto-->
+    <meta name="description" content="Portfolio of Agustín Ezequiel Calpe Monzón, an Informatics student with skills in programming and web development. Explore my projects and expertise in programming and technology.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body class="background-dark">
+<body>
     <header class="header">
-        <div class="header__conteiner">
-            <a href="" class="header__link">
-                <img class="header__icon background-dark" src="images/ezagu.png" alt="Icon of Ezagu">
+        <div class="header__buttons-conteiner">
+            <a href="https://github.com/Ezagu" target="_blank">
+                <img src="icons/github.svg" alt="GitHub icon" class="icon-in-button">GitHub
             </a>
-            <nav class="header__nav background-dark">
-                <ul class="nav__list">
-                    <a href="#home" class="nav__item">//HOME</a>
-                    <a href="#projects" class="nav__item">//PROJECTS</a>
-                    <a href="#skills" class="nav__item">//SKILLS</a>
-                    <a href="#about" class="nav__item">//ABOUT</a>
-                    <a href="#contact" class="nav__item">//CONTACT</a>
-                </ul>
-            </nav>
+            <a href="https://www.linkedin.com/in/agust%C3%ADn-calpe-monz%C3%B3n-713275309/" target="_blank">
+                <img src="icons/linkedin.svg" alt="LinkdIn icon" class="icon-in-button">LinkedIn
+            </a>
+            <a href="mailto:agustincalpedm@gmail.com">
+                <img src="icons/mail.svg" alt="Email icon" class="icon-in-button">Email
+            </a>
+        </div>
+        <div class="header__conteiner">
+            <div class="header__img"></div>
+            <h3>>Hello, world!👋</h3>
+            <h1>i'm <span class="title-name">Agustín Calpe</span> or <span class="title-username">Ezagu</span></h1>
+            <h2>SOFTWARE & WEB DEVELOPER</h2>
         </div>
     </header>
-    <section class="home" id="home">
-        <div class="section-conteiner">
-            <h3 class="home__epigraph">
-                >Hello, world!👋
-            </h3>
-            <h1 class="home__title">i'm  <span class="title--name">Agustín Calpe</span>  or  <span class="title--ezagu">Ezagu</span></h1>
-            <h2 class="home__subtitle">
-                Software & Web developer
-            </h2>
-            <p class="home__paragraph">
-                Passionate about computer science and programming, always eager to learn and grow. I am focused on tackling big challenges and achieving ambitious goals that push me to improve both professionally and personally.
-            </p>
-            <div class="home__links-conteiner">
-                <a href="https://github.com/Ezagu" class="home__link" target="_blank">
-                    <img src="icons/github.svg" alt="GitHub icon" class="home__link-icon">
-                </a>
-                <a href="https://www.linkedin.com/in/agust%C3%ADn-calpe-monz%C3%B3n-713275309/" class="home__link" target="_blank">
-                    <img src="icons/linkedin.svg" alt="LinkedIn icon" class="home__link-icon">
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">
-        <div class="section-conteiner">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects__conteiner">
-                <div class="project__card">
-                    <div class="project__card__image orbi_image">
-                    </div>
-                    <div class="project__card__content">
-                        <h4 class="project__card__title">
-                            Orbi
-                        </h4>
-                        <p class="project__card__paragraph">
-                            2D mobile game developed for Android using Unity and successfully published on the Google Play Store.
-                        </p>
-                        <div class="project__card__icons-conteiner">
-                            <img src="icons/unity.svg" alt="Unity icon" class="project__card__icon">
-                            <img src="icons/csharp.svg" alt="C Sharp icon" class="project__card__icon">
-                            <img src="icons/android-icon.svg" alt="Android icon" class="project__card__icon">
+    <nav class="nav">
+        <ul>
+            <li><a href=""><img src="images/ezagu-sin-fondo.png" alt=""></a></li>
+            <li><a href="#project">//Projects</a></li>
+            <li><a href="#skills">//Skills</a></li>
+            <li><a href="#">//About</a></li>
+            <li><a href="#">//Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="project">
+            <div class="section-conteiner">
+                <h2 class="section-title">
+                    //Projects
+                </h2>
+                <div class="project__conteiner">
+                    <article class="project__card">
+                        <div class="card__img" id="orbi-img"></div>
+                        <div class="card__tecnologies">
+                            <div><img src="icons/unity.svg" alt="Unity icon" class="icon-in-button"> Unity</div>
+                            <div><img src="icons/csharp.svg" alt="CSharp icon" class="icon-in-button">CSharp</div>
+                            <div><img src="icons/android-icon.svg" alt="Android icon" class="icon-in-button">Android</div>
                         </div>
-                        <div class="project__card__button-conteiner">
-                            <a href="https://play.google.com/store/apps/details?id=com.EzaguCompany.GrafoGame&hl=es_AR" target="_blank" class="project__card__button">
-                                <img src="icons/link.svg" alt="Link icon" class="project__card__button__icon">Link
-                            </a>
+                        <h3>Orbi</h3>
+                        <p>2D mobile game developed for Android using Unity and successfully published on the Google Play Store.</p>
+                        <div class="card__button-conteiner">
+                            <a href="https://play.google.com/store/apps/details?id=com.EzaguCompany.GrafoGame&hl=es_AR" target="_blank"><img src="icons/link.svg" alt="Link icon" class="icon-in-button">Link</a>
                         </div>
-                    </div>
-                </div>
-                <div class="project__card">
-                    <div class="project__card__image minesweeper_image"></div>
-                    <div class="project__card__content">
-                        <h4 class="project__card__title">
-                            Minesweeper
-                        </h4>
-                        <p class="project__card__paragraph">
+                    </article>
+                    <article class="project__card">
+                        <div class="card__img" id="minesweeper-img"></div>
+                        <div class="card__tecnologies">
+                            <div><img src="icons/python.svg" alt="Python icon" class="icon-in-button"> Python</div>
+                        </div>
+                        <h3>Minesweeper</h3>
+                        <p>
                             Minesweeper game developed in Python using the Tkinter library for the user interface, incorporating CSV file handling and object-oriented programming (OOP).
                         </p>
-                        <div class="project__card__icons-conteiner">
-                            <img src="icons/python.svg" alt="Python icon" class="project__card__icon">
+                        <div class="card__button-conteiner">
+                            <a href="https://github.com/Ezagu/Minesweeper" target="_blank"><img src="icons/github.svg" alt="GitHub icon" class="icon-in-button">GitHub</a>
                         </div>
-                        <div class="project__card__button-conteiner">
-                            <a href="https://github.com/Ezagu/Minesweeper" target="_blank" class="project__card__button">
-                                <img src="icons/github.svg" alt="" class="project__card__button__icon">GitHub
-                            </a>
-                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-conteiner">
+                <h2 class="section-title">//Skills</h2>
+            </div>
+            <div class="skills-conteiner">
+                <div class="skills__card">
+                    <img src="icons/html5.svg" alt="HTML icon">
+                    HTML
+                </div>
+                <div class="skills__card">
+                    <img src="icons/css_old.svg" alt="CSS icon">
+                    CSS
+                </div>
+                <div class="skills__card">
+                    <img src="icons/python.svg" alt="Python icon">
+                    Python
+                </div>
+                <div class="skills__card">
+                    <img src="icons/java.svg" alt="Java icon">
+                    JAVA
+                </div>
+                <div class="skills__card">
+                    <img src="icons/sqlite.svg" alt="Sqlite icon">
+                    SQLite
+                </div>
+                <div class="skills__card">
+                    <img src="icons/github.svg" alt="Github icon">
+                    GitHub
+                </div>
+                <div class="skills__card">
+                    <img src="icons/git.svg" alt="Git icon">
+                    Git
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="section-conteiner">
+                <h2 class="section-title">//About me</h2>
+                <div class="about-conteiner">
+                    <div class="about__img"></div>
+                    <p>
+                        Hello! I'm <span>Agustín Calpe</span>, 19 years old, living in <span>Argentina</span>. Currently pursuing a Bachelor's Degree in Computer Science at the <span>Universidad Nacional del Oeste</span>, with a strong passion for technology and programming. Exploring different areas to find the right specialization.
+                    </p>
+                    <p>
+                        Experienced in Java, and Python, with recent focus on <span>web development</span> using HTML and CSS. Enjoy building projects and solving problems through code, always aiming to improve skills and learn new technologies.
+                    </p>
+                    <p>
+                        Feel free to reach out to learn more about my work or <a href="#project">projects</a>! 😊
+                    </p>
+                    <h3>SOCIAL MEDIA:</h3>
+                    <div class="about__social-conteiner">
+                        <a href="https://instagram.com/agustincalpe03" target="_blank"><img src="icons/instagram.svg" alt="Instagram icon" class="icon-in-button"></a>
+                        <a href="https://x.com/agustinn_calpe" target="_blank"><img src="icons/x.svg" alt="X icon" class="icon-in-button"></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="skills">
-        <div class="section-conteiner">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills__conteiner">
-                <div class="skill-card">
-                    <img src="icons/html5.svg" alt="HTML icon" class="skill-card__icon" loading="lazy">
-                    <h3 class="skill-card__title">HTML</h3>
-                </div>
-                <div class="skill-card">
-                    <img src="icons/css_old.svg" alt="CSS icon" class="skill-card__icon" loading="lazy">
-                    <h3 class="skill-card__title">CSS</h3>
-                </div>
-                <div class="skill-card">
-                    <img src="icons/python.svg" alt="Python icon" class="skill-card__icon" loading="lazy">
-                    <h3 class="skill-card__title">Python</h3>
-                </div>
-                <div class="skill-card">
-                    <img src="icons/java.svg" alt="Java icon" class="skill-card__icon" loading="lazy">
-                    <h3 class="skill-card__title">Java</h3>
-                </div>
-                <div class="skill-card">
-                    <img src="icons/sqlite.svg" alt="SQLite icon" class="skill-card__icon" loading="lazy">
-                    <h3 class="skill-card__title">SQLite</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="section-conteiner">
-            <h2 class="section-title">
-                About Me
-            </h2>
-            <div>
 
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="section-conteiner">
-            <h2 class="section-title">
-                Contact
-            </h2>
-            <form class="contact__form">
-                
-            </form>
-        </div>
-    </section>
-    <footer class="footer">
-        
-    </footer>
+        </section>
+    </main>
 </body>
 </html>
