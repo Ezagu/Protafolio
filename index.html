@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ezagu-Dev</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icons/EzaguIcon.ico" type="image/icon">
+    <link rel="icon" href="images/ezagu.png" type="image/icon">
     <meta name="author" content="Agustín Calpe">
     <meta name="description" content="Portfolio of Agustín Ezequiel Calpe Monzón, an Informatics student with skills in programming and web development. Explore my projects and expertise in programming and technology.">
 
@@ -34,21 +34,25 @@
         </div>
     </header>
     <nav class="nav">
-        <ul>
-            <li><a href=""><img src="images/ezagu-sin-fondo.png" alt=""></a></li>
-            <li><a href="#project">//Projects</a></li>
-            <li><a href="#skills">//Skills</a></li>
-            <li><a href="#about">//About</a></li>
-            <li><a href="#">//Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="#"><img src="images/ezagu-sin-fondo.png" alt=""></a>
+            <label for="nav__checkbox">=</label>
+            <input type="checkbox" role="button" class="nav__checkbox" id="nav__checkbox">
+            <ul class="nav__list">
+                <li><a href="#project">//PROJECTS</a></li>
+                <li><a href="#skills">//SKILLS</a></li>
+                <li><a href="#about">//ABOUT</a></li>
+                <li><a href="#">//CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <section id="project">
             <div class="section-conteiner">
-                <h2 class="section-title">
-                    //Projects
-                </h2>
                 <div class="project__conteiner">
+                    <h2 class="section-title">
+                        //PROJECTS
+                    </h2>
                     <article class="project__card">
                         <div class="card__img" id="orbi-img"></div>
                         <div class="card__tecnologies">
@@ -80,42 +84,42 @@
         </section>
         <section id="skills">
             <div class="section-conteiner">
-                <h2 class="section-title">//Skills</h2>
-            </div>
-            <div class="skills-conteiner">
-                <div class="skills__card">
-                    <img src="icons/html5.svg" alt="HTML icon">
-                    HTML
-                </div>
-                <div class="skills__card">
-                    <img src="icons/css_old.svg" alt="CSS icon">
-                    CSS
-                </div>
-                <div class="skills__card">
-                    <img src="icons/python.svg" alt="Python icon">
-                    Python
-                </div>
-                <div class="skills__card">
-                    <img src="icons/java.svg" alt="Java icon">
-                    JAVA
-                </div>
-                <div class="skills__card">
-                    <img src="icons/sqlite.svg" alt="Sqlite icon">
-                    SQLite
-                </div>
-                <div class="skills__card">
-                    <img src="icons/github.svg" alt="Github icon">
-                    GitHub
-                </div>
-                <div class="skills__card">
-                    <img src="icons/git.svg" alt="Git icon">
-                    Git
+                <h2 class="section-title">//SKILLS</h2>
+                <div class="skills-conteiner">
+                    <div class="skills__card">
+                        <img src="icons/html5.svg" alt="HTML icon">
+                        HTML
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/css_old.svg" alt="CSS icon">
+                        CSS
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/python.svg" alt="Python icon">
+                        Python
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/java.svg" alt="Java icon">
+                        JAVA
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/sqlite.svg" alt="Sqlite icon">
+                        SQLite
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/github.svg" alt="Github icon">
+                        GitHub
+                    </div>
+                    <div class="skills__card">
+                        <img src="icons/git.svg" alt="Git icon">
+                        Git
+                    </div>
                 </div>
             </div>
         </section>
         <section id="about">
             <div class="section-conteiner">
-                <h2 class="section-title">//About me</h2>
+                <h2 class="section-title">//ABOUT ME</h2>
                 <div class="about-conteiner">
                     <div class="about__img"></div>
                     <p>
@@ -134,7 +138,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 </body>
